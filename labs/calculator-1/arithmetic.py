@@ -3,14 +3,14 @@
 
 def add(num1, num2):
     """Return the sum of num1 and num2."""
-    return num1+num2
+    return float(num1+num2)
 
 
 
 
 def subtract(num1, num2):
     """Return the value of num1 minus num2."""
-    return num1-num2
+    return float(num1-num2)
 
 
 

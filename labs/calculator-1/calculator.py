@@ -27,17 +27,13 @@ while True:
     if len(tokens) > 3:
         num3 = tokens[3]
 
-    # A place to store the return value of the math function we call,
-    # to give us one clear place where that result is printed.
+ 
     result = None
 
     if not num1.isdigit() or not num2.isdigit():
         print("Those aren't numbers!")
         continue
 
-    # We have to cast each value we pass to an arithmetic function from a
-    # a string into a numeric type. If we use float across the board, all
-    # results will have decimal points, so let's do that for consistency.
 
     elif operator == "+":
         result = add(float(num1), float(num2))
